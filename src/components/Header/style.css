@@ -1,0 +1,19 @@
+.sidebar {
+    background: url("../../assets/cover.png");
+    background-color: #181c2e;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.sidebar img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: drop-shadow(3px 3px 6px #121212);
+}
