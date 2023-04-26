@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<h1 align="center">Sistema de cadastro</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Tem como ponto forte cadastra dados ou informações fornecida pelo usuário.
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="License" src="https://user-images.githubusercontent.com/84647446/234435445-101bc17e-501a-4007-abfc-089a20f22b0f.png" width="700px">
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologias
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `npm test`
+- React JS
+- React-toastify para mostra as notificações
+- Styled-Components  e css
+- Firebase como banco de dados
+- Sistema Crud
+- Git e Github
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Projeto
 
-### `npm run build`
+O projeto de cadastro é uma aplicação completa e funcional que permite a adição, edição e exclusão de dados em um banco de dados utilizando Firebase. Além disso, possui um sistema de login implementado com Hooks, como useState, useEffect e useContext, evidenciando o conhecimento do desenvolvedor em gerenciamento de estado e ciclo de vida de componentes em aplicações React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A aplicação é projetada para ser fluida e rápida, com indicadores de loading durante as operações assíncronas com o banco de dados, proporcionando uma experiência de usuário positiva. Além disso, o sistema de login permite aos usuários criar uma conta com dados fictícios caso não tenham um cadastro, facilitando a avaliação do projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Outro destaque do projeto é a sua responsividade, sendo projetado para funcionar bem em dispositivos desktop, tablets e dispositivos móveis. A utilização de recursos de CRUD possibilita a criação, leitura, atualização e exclusão de dados do banco de dados, fornecendo uma funcionalidade completa para interação com os dados.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A aplicação também demonstra o domínio do desenvolvedor em tecnologias modernas de desenvolvimento web, como o uso de Hooks e a familiaridade com o Firebase. Em resumo, o projeto de cadastro com Firebase, CRUD, sistema de login com Hooks e responsividade é uma aplicação completa e funcional, que evidencia as habilidades e conhecimentos do desenvolvedor em desenvolvimento web, proporcionando uma experiência de usuário positiva em diferentes dispositivos.
 
-### `npm run eject`
+## 🔖 Link do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Você pode visualizar o projeto através [DESSE LINK](https://sistemacadastro-omega.vercel.app/). Compativel com Smartphone, Tablets e Desktop.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :memo: Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Esse projeto está sob a licença MIT.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ♥ by Ruanny :wave:
