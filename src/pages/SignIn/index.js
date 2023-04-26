@@ -14,7 +14,6 @@ export default function SignIn() {
 
   const { signIn, loadingAuth } = useContext(AuthContext);
 
-  // const [loading, setLoading] = useState(true);
 
   async function handleSignIn(e) {
     e.preventDefault();

@@ -23,8 +23,9 @@ export const Container = styled.div`
       justify-content: center;
 
       img {
-        width: 190px;
-        height: 150px;
+
+        width: 252px;
+        height: 171px;
         padding: 20px;
       }
     }
@@ -80,12 +81,13 @@ export const Form = styled.form`
     flex-direction: column;
     width: 100%;
     max-width: 600px;
+    position: relative;
 
     svg {
       color: #000;
-      position: relative;
-      left: 94%;
-      top: -2.5em;
+      position: absolute;
+      top: 23%;
+      right: 0.9em;
       cursor: pointer;
     }
   }
@@ -103,13 +105,13 @@ export const Form = styled.form`
   }
 
   @media (max-width: 375px) {
-    width: 100%;
+    /* width: 100%; */
 
-    div {
+    /* div {
       svg {
         left: 90%;
       }
-    }
+    } */
 
     .status {
       display: block;
@@ -117,7 +119,6 @@ export const Form = styled.form`
 
       input {
         margin: 0;
-
       }
       span {
         font-size: 1.2em;
